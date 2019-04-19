@@ -70,7 +70,7 @@ MonAnimation
     .from(".class",2,{params})
 --<>--<>--<>--<>--<>-- SCROLLMAGIC --<>--<>--<>--<>--<>--<>--
 1. On commence par initialiser le controller :
-var controller = new ScrollMagic();
+var controller = new ScrollMagic.Controller();
 2. Créer une scène
 new ScrollMagic.Scene({
     triggerElement: "#id", // Le point de commencement de l'animation
